@@ -1,7 +1,7 @@
 
 # Learnable Boundary Guided Adversarial Training (https://arxiv.org/pdf/2011.11164.pdf)
 
-## Our method creates new state-of-the-art model robustness on CIFAR-100 while preserving high natural accuracy ! 
+## Our method creates new state-of-the-art model robustness on CIFAR-100 while preserving high natural accuracy up to 2020/11/25! 
 Models are evaluated under the strongest AutoAttack(https://github.com/fra31/auto-attack) with epsilon 0.031.
 
 Our CIFAR-100 models:  
