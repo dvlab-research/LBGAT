@@ -33,7 +33,7 @@ Note: this is one partial results list for comparisons with methods without usin
 
 
 ## CIFAR-10 L-inf
-Note: this is one partial results list for comparisons with previous published methods without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack.
+Note: this is one partial results list for comparisons with previous published methods without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack. TRADES (alpha=6) is trained with official open-source code at https://github.com/yaodongyu/TRADES.
 
 wait to update !!
 
