@@ -15,11 +15,9 @@ Our CIFAR-10 models:
 [CIFAR-10-LBGAT0-wideresnet-34-10](https://drive.google.com/file/d/1JufuOi5szINv2oSZ7iNnFrKzNaXiLG1-/view?usp=sharing) 88.22 vs 52.86  
 [CIFAR-10-LBGAT0-wideresnet-34-20](https://drive.google.com/file/d/1RpqN3QwD7-QNIFGQfqcFG9FOQTAg4LOm/view?usp=sharing) 88.70 vs 53.57  
 
-
-
   
 ## CIFAR-100 L-inf 
-Note: this is one partial list results for comparisons with methods without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack. 
+Note: this is one partial list results for comparisons with methods without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack. TRADES (alpha=6) is trained with official open-source code at https://github.com/yaodongyu/TRADES.  
 
 | # | Method | Model | Natural Acc | Robust Acc (AutoAttack) |  
 | :---: | :---: | :---: | :---: | :---: |
