@@ -21,7 +21,7 @@ Note: this is one partial results list for comparisons with methods without usin
 
 | # | Method | Model | Natural Acc | Robust Acc (AutoAttack) |  
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | **LBGAT (Ours)**                                         | WRN-34-20 | 62.55 | **30.20** |   
+| 1 | **LBGAT (Ours)**                                         | WRN-34-20 | **62.55** | **30.20** |   
 | 2 | [(Gowal et al. 2020)](https://arxiv.org/abs/2010.03593)  | WRN-70-16 | 60.86 | 30.03 |
 | 3 | **LBGAT (Ours)**                                         | WRN-34-10 | 60.64 | **29.33** |
 | 4 | [(Wu et al. 2020)](https://arxiv.org/abs/2004.05884)     | WRN-34-10 | 60.38 | 28.86 |
