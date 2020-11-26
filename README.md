@@ -27,9 +27,9 @@ Note: this is one partial results list for comparisons with methods without usin
 | 4 | [(Wu et al. 2020)](https://arxiv.org/abs/2004.05884)     | WRN-34-10 | 60.38 | 28.86 |
 | 5 | **LBGAT (Ours)**                                         | WRN-34-10 | **70.25** | 27.16 |
 | 6 | [(Chen et al. 2020)](https://arxiv.org/abs/2010.01278)   | WRN-34-10 | 62.15 | 26.94 |
-| 7 | **TRADES (alpha=6)**                                     | WRN-34-10 | 56.50 | 26.87 |
-| 8 | [(Sitawarin et al. 2020)](https://arxiv.org/abs/2003.09347)  | WRN-34-10 | 62.82 | 24.57 |
-| 9 | [(Rice et al. 2020)](https://arxiv.org/abs/2002.11569)       | RN-18     | 53.83 | 18.95 |
+| 7 | [(Zhang et al. 2019)](https://arxiv.org/abs/1901.08573) **TRADES (alpha=6)**                                     | WRN-34-10 | 56.50 | 26.87 |
+| 8 | [(Sitawarin et al. 2020)](https://arxiv.org/abs/2003.09347)                                                      | WRN-34-10 | 62.82 | 24.57 |
+| 9 | [(Rice et al. 2020)](https://arxiv.org/abs/2002.11569)                                                           | RN-18     | 53.83 | 18.95 |
 
 
 ## CIFAR-10 L-inf
