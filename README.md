@@ -17,7 +17,7 @@ Our CIFAR-10 models:
 
   
 ## CIFAR-100 L-inf 
-Note: this is one partial list results for comparisons with methods without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack. TRADES (alpha=6) is trained with official open-source code at https://github.com/yaodongyu/TRADES.  
+Note: this is one partial results list for comparisons with methods without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack. TRADES (alpha=6) is trained with official open-source code at https://github.com/yaodongyu/TRADES.  
 
 | # | Method | Model | Natural Acc | Robust Acc (AutoAttack) |  
 | :---: | :---: | :---: | :---: | :---: |
