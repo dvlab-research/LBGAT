@@ -17,7 +17,7 @@ Our CIFAR-10 models:
 
   
 ## CIFAR-100 L-inf 
-Note: this is one partial results list for comparisons with methods without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack. TRADES (alpha=6) is trained with official open-source code at https://github.com/yaodongyu/TRADES.  
+Note: this is one partial results list for comparisons with methods without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack. TRADES (alpha=6) is trained with official open-source code at https://github.com/yaodongyu/TRADES. “*” denotes methods aiming to speed up adversarial training.
 
 | # | Method | Model | Natural Acc | Robust Acc (AutoAttack) |  
 | :---: | :---: | :---: | :---: | :---: |
@@ -49,9 +49,9 @@ Note: this is one partial results list for comparisons with previous published m
 | 10 | [(Kumari et al., 2019)]()             	                 | WRN-34-10	| 87.80	| 49.12 |
 | 11 | [(Mao et al., 2019)]()	                                 |	WRN-34-10	| 86.21	| 47.41 |
 | 12 | [(Zhang et al., 2019a)]()	                              | WRN-34-10	| 87.20	| 44.83 |
-| 13 | [(Madry et al., 2018)]() **AT**              	        | WRN-34-10	| 87.14	| 44.04 |
-| 14 | [(Shafahi et al., 2019)]()                     	        | WRN-34-10	| 86.11	| 41.47 |
-| 14 | [(Wang & Zhang, 2019)]()	                               |	WRN-28-10	| 92.80	| 29.35 |
+| 13 | [(Madry et al., 2018)]() **AT**              	          | WRN-34-10	| 87.14	| 44.04 |
+| 14 | [(Shafahi et al., 2019)]()*                     	       | WRN-34-10	| 86.11	| 41.47 |
+| 14 | [(Wang & Zhang, 2019)]()*	                              |	WRN-28-10	| 92.80	| 29.35 |
 
 
 
