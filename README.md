@@ -17,7 +17,7 @@ Our CIFAR-10 models:
 
   
 ## CIFAR-100 L-inf 
-Note: this is one partial results list for comparisons with methods without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack. TRADES (alpha=6) is trained with official open-source code at https://github.com/yaodongyu/TRADES. “*” denotes methods aiming to speed up adversarial training.
+Note: this is one partial results list for comparisons with methods without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack. TRADES (alpha=6) is trained with official open-source code at https://github.com/yaodongyu/TRADES.  
 
 | # | Method | Model | Natural Acc | Robust Acc (AutoAttack) |  
 | :---: | :---: | :---: | :---: | :---: |
@@ -33,7 +33,7 @@ Note: this is one partial results list for comparisons with methods without usin
 
 
 ## CIFAR-10 L-inf
-Note: this is one partial results list for comparisons with **previous published methods** without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack. TRADES (alpha=6) is trained with official open-source code at https://github.com/yaodongyu/TRADES.
+Note: this is one partial results list for comparisons with **previous published methods** without using additional data up to 2020/11/25. Full list can be found at https://github.com/fra31/auto-attack. TRADES (alpha=6) is trained with official open-source code at https://github.com/yaodongyu/TRADES. “*” denotes methods aiming to speed up adversarial training. 
 
 | # | Method | Model | Natural Acc | Robust Acc (AutoAttack) |  
 | :---: | :---: | :---: | :---: | :---: |
@@ -42,7 +42,7 @@ Note: this is one partial results list for comparisons with **previous published
 | 3 | **LBGAT (Ours)**                                         | WRN-34-10 | **88.22** | 52.86 |
 | 4 | [(Rice et al. 2020)]()                                   | WRN-34-20 | 85.34	|	53.42 |
 | 5 | [(Qin et al., 2019)]()                        	          | WRN-40-8	 | 86.28	|	52.84 |
-| 6 | [(Zhang et al. 2019)](https://arxiv.org/abs/1901.08573) **TRADES (alpha=6)**                                     | WRN-34-10 | 84.92 | 52.64(53.08) |
+| 6 | [(Zhang et al. 2019)](https://arxiv.org/abs/1901.08573) **TRADES (alpha=6)**                                     | WRN-34-10 | 84.92 | 52.64 |
 | 7 | [(Chen et al., 2020b)]()                                 |	WRN-34-10	| 85.32	| 51.12 |
 | 8 | [(Sitawarin et al., 2020)]()                 	           | WRN-34-10	| 86.84	| 50.72 |
 | 9 | [(Engstrom et al., 2019)]()	                             | RN-50	    | 87.03 |	49.25 |
