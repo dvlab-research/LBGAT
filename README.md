@@ -39,8 +39,8 @@ Note: this is one partial results list for comparisons with **previous published
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | **LBGAT (Ours)**                                         | WRN-34-20 | **88.70** | **53.57** |   
 | 2 | [(Zhang et al.)]()                                       | WRN-34-10 | 84.52	| 53.51 |
-| 3 | **LBGAT (Ours)**                                         | WRN-34-10 | **88.22** | 52.86 |
-| 4 | [(Rice et al. 2020)]()                                   | WRN-34-20 | 85.34	|	53.42 |
+| 3 | [(Rice et al. 2020)]()                                   | WRN-34-20 | 85.34	|	53.42 |
+| 4 | **LBGAT (Ours)**                                         | WRN-34-10 | **88.22** | 52.86 |
 | 5 | [(Qin et al., 2019)]()                        	          | WRN-40-8	 | 86.28	|	52.84 |
 | 6 | [(Zhang et al. 2019)](https://arxiv.org/abs/1901.08573) **TRADES (alpha=6)**                                     | WRN-34-10 | 84.92 | 52.64 |
 | 7 | [(Chen et al., 2020b)]()                                 |	WRN-34-10	| 85.32	| 51.12 |
