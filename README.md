@@ -51,7 +51,7 @@ Note: this is one partial results list for comparisons with **previous published
 | 12 | [(Zhang et al., 2019a)]()	                              | WRN-34-10	| 87.20	| 44.83 |
 | 13 | [(Madry et al., 2018)]() **AT**              	          | WRN-34-10	| 87.14	| 44.04 |
 | 14 | [(Shafahi et al., 2019)]()*                     	       | WRN-34-10	| 86.11	| 41.47 |
-| 14 | [(Wang & Zhang, 2019)]()*	                              |	WRN-28-10	| 92.80	| 29.35 |
+| 14 | [(Wang & Zhang, 2019)]()*	                              |	WRN-28-10	| **92.80**	| 29.35 |
 
 
 
