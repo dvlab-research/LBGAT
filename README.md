@@ -16,11 +16,11 @@ If you find this code or idea useful, please consider citing our work:
 ```  
 
 # Overview
-In this paper, we proposed the "Learnable Boundary Guided Adversarial Training" to preserve high natural accuracy while enjoy strong robustness for deep models. An interesting phenomenon in our exploration shows that natural classifier boundary can benefit model robustness to some degree, which is different from the previous work that the improved robustness is at cost of performance degradation on natural data. Our method creates new state-of-the-art model robustness on CIFAR-100 without extra real or Synthetic data under [auto-attack benchmark](https://robustbench.github.io/). 
+In this paper, we proposed the "Learnable Boundary Guided Adversarial Training" to preserve high natural accuracy while enjoy strong robustness for deep models. An interesting phenomenon in our exploration shows that natural classifier boundary can benefit model robustness to some degree, which is different from the previous work that the improved robustness is at cost of performance degradation on natural data. **Our method creates new state-of-the-art model robustness on CIFAR-100 without extra real or Synthetic data under [auto-attack benchmark](https://robustbench.github.io/)**. 
 
-![image]()
+![image](https://github.com/FPNAS/LBGAT/blob/main/assets/lbgat.jpg)
 
-## Our method creates new state-of-the-art model robustness on CIFAR-100 while preserving the highest natural accuracy up to 2020/11/25!
+## Results and Pretrained models
 
   `  
 Models are evaluated under the strongest AutoAttack(https://github.com/fra31/auto-attack) with epsilon 0.031.
@@ -74,7 +74,23 @@ Note: this is one partial results list for comparisons with **previous published
 | 14 | [(Wang & Zhang, 2019)]()*	                              |	WRN-28-10	| **92.80**	| 29.35 |
 
 
+# Get Started
+## Training
+```
+bash sh/train_lbgat0_cifar100.sh
+```
 
+## Evaluation
+before running the evaluation, please download the pretrained model.
+```
+bash sh/eval_autoattack.sh
+```
+
+# Acknowledgements
+This code is partly based on the [TRADES](https://github.com/yaodongyu/TRADES) and [autoattack](https://github.com/fra31/auto-attack).
+
+# Contact
+If you have any questions, feel free to contact us through email (jiequancui@link.cuhk.edu.hk) or Github issues. Enjoy!
 
 
 
