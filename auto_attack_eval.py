@@ -9,7 +9,7 @@ from torch.autograd import Variable
 import torch.optim as optim
 from torchvision import datasets, transforms
 from models.wideresnet import *
-from autoattack import AutoAttack
+from autoattack.autoattack import AutoAttack
 
 parser = argparse.ArgumentParser(description='PyTorch CIFAR PGD Attack Evaluation')
 parser.add_argument('--test-batch-size', type=int, default=64, metavar='N',
@@ -102,7 +102,7 @@ def main():
 
     if args.white_box_attack:
         # white-box attack
-        open(args.mark,"a+").write('pgd white-box attack\n')
+        open("Logs/"+args.mark,"a+").write('pgd white-box attack\n')
         model = WideResNet(num_classes=args.num_classes, widen_factor=args.widen_factor)
         if args.dataparallel:
            model = nn.DataParallel(model).to(device)
