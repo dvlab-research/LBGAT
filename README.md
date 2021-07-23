@@ -1,5 +1,25 @@
  
-# Learnable Boundary Guided Adversarial Training (https://arxiv.org/pdf/2011.11164.pdf)
+# Learnable Boundary Guided Adversarial Training 
+This repository contains the implementation code for paper:  
+**Learnable Boundary Guided Adversarial Training** (https://arxiv.org/pdf/2011.11164.pdf)
+
+If you find this code or idea useful, please consider citing our work:
+```
+@misc{cui2020learnable,
+      title={Learnable Boundary Guided Adversarial Training}, 
+      author={Jiequan Cui and Shu Liu and Liwei Wang and Jiaya Jia},
+      year={2020},
+      eprint={2011.11164},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```  
+
+# Overview
+In this paper, we proposed the "Learnable Boundary Guided Adversarial Training" to preserve high natural accuracy while enjoy strong robustness for deep models. An interesting phenomenon in our exploration shows that natural classifier boundary can benefit model robustness to some degree, which is different from the previous work that the improved robustness is at cost of performance degradation on natural data. Our method creates new state-of-the-art model robustness on CIFAR-100 without extra real or Synthetic data under [auto-attack benchmark](https://robustbench.github.io/). 
+
+![image]()
+
 ## Our method creates new state-of-the-art model robustness on CIFAR-100 while preserving the highest natural accuracy up to 2020/11/25!
 
   `  
