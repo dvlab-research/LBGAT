@@ -5,13 +5,11 @@ This repository contains the implementation code for paper:
 
 If you find this code or idea useful, please consider citing our work:
 ```
-@misc{cui2020learnable,
-      title={Learnable Boundary Guided Adversarial Training}, 
-      author={Jiequan Cui and Shu Liu and Liwei Wang and Jiaya Jia},
-      year={2020},
-      eprint={2011.11164},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{cui2020learnable,
+  title={Learnable boundary guided adversarial training},
+  author={Cui, Jiequan and Liu, Shu and Wang, Liwei and Jia, Jiaya},
+  journal={arXiv preprint arXiv:2011.11164},
+  year={2020}
 }
 ```  
 
