@@ -1,6 +1,6 @@
  
 # Learnable Boundary Guided Adversarial Training 
-This repository contains the implementation code for paper:  
+This repository contains the implementation code for the ICCV2021 paper:  
 **Learnable Boundary Guided Adversarial Training** (https://arxiv.org/pdf/2011.11164.pdf)
 
 If you find this code or idea useful, please consider citing our work:
