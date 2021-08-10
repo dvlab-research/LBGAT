@@ -22,9 +22,9 @@ torch.backends.cudnn.deterministic=True
 
 
 parser = argparse.ArgumentParser(description='PyTorch CIFAR TRADES Adversarial Training')
-parser.add_argument('--batch-size', type=int, default=32, metavar='N',
+parser.add_argument('--batch-size', type=int, default=128, metavar='N',
                     help='input batch size for training (default: 128)')
-parser.add_argument('--test-batch-size', type=int, default=128, metavar='N',
+parser.add_argument('--test-batch-size', type=int, default=32, metavar='N',
                     help='input batch size for testing (default: 128)')
 parser.add_argument('--epochs', type=int, default=100, metavar='N',
                     help='number of epochs to train')
@@ -80,9 +80,9 @@ transform_train = transforms.Compose([
 transform_test = transforms.Compose([
     transforms.ToTensor(),
 ])
-trainset = torchvision.datasets.CIFAR100(root='./data/cifar100', train=True, download=False, transform=transform_train)
+trainset = torchvision.datasets.CIFAR100(root='./data/cifar100', train=True, download=True, transform=transform_train)
 train_loader = torch.utils.data.DataLoader(trainset, batch_size=args.batch_size, shuffle=True, **kwargs)
-testset = torchvision.datasets.CIFAR100(root='./data/cifar100', train=False, download=False, transform=transform_test)
+testset = torchvision.datasets.CIFAR100(root='./data/cifar100', train=False, download=True, transform=transform_test)
 test_loader = torch.utils.data.DataLoader(testset, batch_size=args.test_batch_size, shuffle=False, **kwargs)
 
 
@@ -167,15 +167,21 @@ def adjust_learning_rate(optimizer, epoch):
 
 def main():
     # init model, ResNet18() can be also used here for training
-    model = getattr(nets,"WideResNet")(num_classes=args.num_classes, widen_factor=10).to(device) 
-    model_teacher = getattr(nets,args.teacher_model)(num_classes=args.num_classes).to(device) 
+    model = getattr(nets,"WideResNet")(num_classes=args.num_classes, widen_factor=10)
+    model_teacher = getattr(nets,args.teacher_model)(num_classes=args.num_classes) 
 
+    # dataparallel
+    model = nn.DataParallel(model).to(device)
+    model_teacher = nn.DataParallel(model_teacher).to(device)
+
+    # optimizer
     optimizer = optim.SGD([{'params':model.parameters()},{'params':model_teacher.parameters()}], lr=args.lr, momentum=args.momentum, weight_decay=args.weight_decay)
 
+
     #### resume
-    #optimizer.load_state_dict(torch.load("model-cifar-wideResNet/cifar100_aodt0_0.031-checkpoint_epoch91.tar"))
-    #model_teacher.load_state_dict(torch.load("model-cifar-wideResNet/cifar100_aodt0_0.031-natural-epoch91.pt"))
-    #model.load_state_dict(torch.load("model-cifar-wideResNet/cifar100_aodt0_0.031-epoch91.pt"))
+    #optimizer.load_state_dict(torch.load("model-cifar-wideResNet/cifar100_lbgat6_0.031-checkpoint_epoch91.tar"))
+    #model_teacher.load_state_dict(torch.load("model-cifar-wideResNet/cifar100_lbgat6_0.031-natural-epoch91.pt"))
+    #model.load_state_dict(torch.load("model-cifar-wideResNet/cifar100_lbgat6_0.031-epoch91.pt"))
 
     for epoch in range(1, args.epochs + 1):
         # adjust learning rate for SGD
