@@ -20,7 +20,6 @@ np.random.seed(SEED)
 torch.backends.cudnn.deterministic=True
 ####
 
-
 parser = argparse.ArgumentParser(description='PyTorch CIFAR TRADES Adversarial Training')
 parser.add_argument('--batch-size', type=int, default=128, metavar='N',
                     help='input batch size for training (default: 128)')
