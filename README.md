@@ -73,6 +73,9 @@ Note: this is one partial results list for comparisons with **previous published
 
 
 # Get Started
+
+Befor the training, please create the directory 'Logs' via the command 'mkdir Logs'.
+
 ## Training
 ```
 bash sh/train_lbgat0_cifar100.sh
