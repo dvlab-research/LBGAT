@@ -3,15 +3,6 @@
 This repository contains the implementation code for the ICCV2021 paper:  
 **Learnable Boundary Guided Adversarial Training** (https://arxiv.org/pdf/2011.11164.pdf)
 
-If you find this code or idea useful, please consider citing our work:
-```
-@article{cui2020learnable,
-  title={Learnable boundary guided adversarial training},
-  author={Cui, Jiequan and Liu, Shu and Wang, Liwei and Jia, Jiaya},
-  journal={arXiv preprint arXiv:2011.11164},
-  year={2020}
-}
-```  
 
 # Overview
 In this paper, we proposed the "Learnable Boundary Guided Adversarial Training" to preserve high natural accuracy while enjoy strong robustness for deep models. An interesting phenomenon in our exploration shows that natural classifier boundary can benefit model robustness to some degree, which is different from the previous work that the improved robustness is at cost of performance degradation on natural data. **Our method creates new state-of-the-art model robustness on CIFAR-100 without extra real or Synthetic data under [auto-attack benchmark](https://robustbench.github.io/)**. 
@@ -93,5 +84,15 @@ This code is partly based on the [TRADES](https://github.com/yaodongyu/TRADES) a
 # Contact
 If you have any questions, feel free to contact us through email (jiequancui@link.cuhk.edu.hk) or Github issues. Enjoy!
 
-
+# BibTex
+If you find this code or idea useful, please consider citing our work:
+```
+@inproceedings{cui2021learnable,
+  title={Learnable boundary guided adversarial training},
+  author={Cui, Jiequan and Liu, Shu and Wang, Liwei and Jia, Jiaya},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={15721--15730},
+  year={2021}
+}
+```  
 
