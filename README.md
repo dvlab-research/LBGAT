@@ -4,6 +4,13 @@ This repository contains the implementation code for the ICCV2021 paper:
 **Learnable Boundary Guided Adversarial Training** (https://arxiv.org/pdf/2011.11164.pdf)
 
 
+# Updates: Training with Epsilon 8/255 on CIFAR-100
+| # | Method | Model | Natural Acc | Robust Acc (AutoAttack) |  
+| :---: | :---: | :---: | :---: | :---: |
+| 1 | AWP                                                  | WRN-34-10 | **60.38** | **28.86** | 
+| 1 | LBGAT-AWP                                            | WRN-34-10 | **62.31** | **30.44** |   
+
+
 # Overview
 In this paper, we proposed the "Learnable Boundary Guided Adversarial Training" to preserve high natural accuracy while enjoy strong robustness for deep models. An interesting phenomenon in our exploration shows that natural classifier boundary can benefit model robustness to some degree, which is different from the previous work that the improved robustness is at cost of performance degradation on natural data. **Our method creates new state-of-the-art model robustness on CIFAR-100 without extra real or Synthetic data under [auto-attack benchmark](https://robustbench.github.io/)**. 
 
