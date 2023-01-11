@@ -16,7 +16,7 @@ parser.add_argument('--test-batch-size', type=int, default=64, metavar='N',
                     help='input batch size for testing (default: 200)')
 parser.add_argument('--no-cuda', action='store_true', default=False,
                     help='disables CUDA training')
-parser.add_argument('--epsilon', default=0.031,
+parser.add_argument('--epsilon', default=0.031, type=float,
                     help='perturbation')
 parser.add_argument('--num-steps', default=20, type=int,
                     help='perturb number of steps')
@@ -47,6 +47,9 @@ parser.add_argument('--dataparallel', default=False, type=bool,
 
 
 args = parser.parse_args()
+
+if args.epsilon == 8.0:
+    args.epsilon = 8.0 / 255
 
 # settings
 use_cuda = not args.no_cuda and torch.cuda.is_available()
@@ -109,7 +112,7 @@ def main():
         else:
            model = model.to(device)
 
-        model.load_state_dict(torch.load(args.model_path))
+        model.load_state_dict(torch.load(args.model_path), strict=False)
         adversary = AutoAttack(model, norm='Linf', eps=args.epsilon, version='standard', log_path = "Logs/"+args.mark)
         adversary.seed = 0
         eval_adv_test_whitebox(model, device, test_loader, adversary)
