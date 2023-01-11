@@ -9,7 +9,7 @@ This repository contains the implementation code for the ICCV2021 paper:
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | AWP                                                  | WRN-34-10 | **60.38** | **28.86** | - |
 | 2 | LBGAT-AWP                                            | WRN-34-10 | **62.31** | **30.44** | - | 
-| 3 | LBGAT-AWP*                                           | WRN-34-10 | **62.99** | **31.20** | [model](https://drive.google.com/file/d/1g8M77pgE7fCe9KzqRBUkexBN-6mcHkV-/view?usp=share_link)  |  
+| 3 | LBGAT-AWP*                                           | WRN-34-10 | **62.99** | **31.20** | [model](https://drive.google.com/file/d/1g8M77pgE7fCe9KzqRBUkexBN-6mcHkV-/view?usp=share_link) / [log](https://drive.google.com/file/d/1h5fbbx48pw3S97VxAxSJXpK5_ecD7JGR/view?usp=sharing)  |  
 
 
 # Overview
