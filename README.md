@@ -23,14 +23,14 @@ In this paper, we proposed the "Learnable Boundary Guided Adversarial Training" 
 Models are evaluated under the strongest AutoAttack(https://github.com/fra31/auto-attack) with epsilon 0.031.
 
 Our CIFAR-100 models:  
-[CIFAR-100-LBGAT0-wideresnet-34-10](https://drive.google.com/file/d/1CijxcgW1U8yfrB3n4dyxUbcotVaxyZyA/view?usp=sharing) 70.25 vs 27.16                                             
-[CIFAR-100-LBGAT6-wideresnet-34-10](https://drive.google.com/file/d/1pzheoiTtoh0qKWcyjFwwxFK6GL0yXAQI/view?usp=sharing) 60.64 vs 29.33    
-[CIFAR-100-LBGAT6-wideresnet-34-20](https://drive.google.com/file/d/18iond836snl_chrBL0s7f_BY-5AUWfej/view?usp=sharing) 62.55 vs 30.20    
+[CIFAR-100-LBGAT0-wideresnet-34-10](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155116769_link_cuhk_edu_hk/Edce7FP6qe1Lm2FwkhOpO6kBGp76LKDHNAC1w2WW2KUCUw?e=7v6odA) 70.25 vs 27.16                                             
+[CIFAR-100-LBGAT6-wideresnet-34-10](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155116769_link_cuhk_edu_hk/EYFj964RVGtAu9qhhgjGfXwBcddlY60Igka4LHOwNmyv6Q?e=8doAf6) 60.64 vs 29.33    
+[CIFAR-100-LBGAT6-wideresnet-34-20](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155116769_link_cuhk_edu_hk/ERdITbIJVGhIvqeKA8Y4CgQBgYBnqi4jCgQpQ0qY3ZgOMA?e=22eY6M) 62.55 vs 30.20    
 
 
 Our CIFAR-10 models:  
-[CIFAR-10-LBGAT0-wideresnet-34-10](https://drive.google.com/file/d/1JufuOi5szINv2oSZ7iNnFrKzNaXiLG1-/view?usp=sharing) 88.22 vs 52.86  
-[CIFAR-10-LBGAT0-wideresnet-34-20](https://drive.google.com/file/d/1RpqN3QwD7-QNIFGQfqcFG9FOQTAg4LOm/view?usp=sharing) 88.70 vs 53.57  
+[CIFAR-10-LBGAT0-wideresnet-34-10](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155116769_link_cuhk_edu_hk/EWve6ZRn81xNuLG8PkRwQqgB1OLjalRYT3EKVmoGEFqWrg?e=7GCcFR) 88.22 vs 52.86  
+[CIFAR-10-LBGAT0-wideresnet-34-20](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155116769_link_cuhk_edu_hk/EQ0S18gA4pdChXoCLdcy2G8B7T9RYSoHlNDCP930aqigQQ?e=cQREW2) 88.70 vs 53.57  
 
   
 ## CIFAR-100 L-inf 
