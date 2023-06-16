@@ -1,3 +1,5 @@
+# News
+* Our new arXiv paper ["Decoupled Kullback-Leibler (DKL) Divergence Loss"](https://arxiv.org/pdf/2305.13948v1.pdf) achieves new state-of-the-art on **adversarial robustness**. [Code](https://github.com/jiequancui/DKL) is released.
  
 # Learnable Boundary Guided Adversarial Training 
 This repository contains the implementation code for the ICCV2021 paper:  
