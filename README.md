@@ -104,5 +104,13 @@ If you find this code or idea useful, please consider citing our work:
   pages={15721--15730},
   year={2021}
 }
+
+@article{cui2023decoupled,
+  title={Decoupled Kullback-Leibler Divergence Loss},
+  author={Cui, Jiequan and Tian, Zhuotao and Zhong, Zhisheng and Qi, Xiaojuan and Yu, Bei and Zhang, Hanwang},
+  journal={arXiv preprint arXiv:2305.13948},
+  year={2023}
+}
+
 ```  
 
